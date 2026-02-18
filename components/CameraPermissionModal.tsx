@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CameraIcon, MicrophoneIcon, CloseIcon } from './icons';
 
