@@ -1,9 +1,9 @@
 import { Request, Response } from 'express';
-import Gift from '../../models/Gift';
-import User, { IUser } from '../../models/User';
-import Transaction from '../../models/Transaction';
-import Stream, { IStream } from '../../models/Stream';
-import Notification, { NotificationType } from '../../models/Notification';
+import Gift from '../routes/models/Gift';
+import User, { IUser } from '../routes/models/User';
+import Transaction from '../routes/models/Transaction';
+import Stream, { IStream } from '../routes/models/Stream';
+import Notification, { NotificationType } from '../routes/models/Notification';
 
 export const getGifts = async (req: Request, res: Response) => {
   try {

@@ -18,3 +18,14 @@ View your app in AI Studio: https://ai.studio/apps/drive/1qh-xtmMoJ5SbWAJbXmlffD
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+pm2 start dist-server/server/index.js \
+  --name livego-api \
+  --node-args="--experimental-specifier-resolution=node"
+
+Em seguida, reconstruir o projeto:
+bash
+npm run build:server
+Por fim, iniciar o servidor:
+bash
+npm run start:server

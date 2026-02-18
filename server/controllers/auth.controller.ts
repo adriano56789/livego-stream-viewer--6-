@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import { validationResult } from 'express-validator';
-import User from '../../models/User';
+import User from '../routes/models/User';
 
 export const register = async (req: Request, res: Response) => {
   try {

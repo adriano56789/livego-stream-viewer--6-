@@ -1,5 +1,5 @@
 import { Types } from 'mongoose';
-import Stream, { IStream } from '../../models/Stream';
+import Stream, { IStream } from '../routes/models/Stream';
 
 interface CreateStreamInput {
   title: string;

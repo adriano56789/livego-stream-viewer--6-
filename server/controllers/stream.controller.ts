@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import Stream from '../../models/Stream';
+import Stream from '../routes/models/Stream';
 import { startStream, endStream, getStream, listStreams, updateStream } from '../services/stream.service';
 
 export const createStream = async (req: Request, res: Response) => {

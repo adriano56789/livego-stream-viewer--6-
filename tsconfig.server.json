@@ -1,0 +1,21 @@
+﻿{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "outDir": "./dist-server",
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["server/**/*"],
+  "exclude": ["node_modules", "dist", "dist-server"]
+}

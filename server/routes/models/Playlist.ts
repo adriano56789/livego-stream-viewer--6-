@@ -1,5 +1,5 @@
 import mongoose, { Schema, Types } from 'mongoose';
-import { BaseDocument, SaveOptions } from '../types/mongoose.types';
+import { BaseDocument, SaveOptions } from '../../../types/mongoose.types';
 
 type PlaylistType = 'public' | 'unlisted' | 'private';
 type ContentType = 'video' | 'stream';

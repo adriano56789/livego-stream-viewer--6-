@@ -1,6 +1,6 @@
 import { WebSocketServer, WebSocket as WS } from 'ws';
 import { Server } from 'http';
-import { IUser } from '../models/User';
+import { IUser } from './routes/models/User';
 
 // Extend WebSocket type with our custom properties
 interface CustomWebSocket extends WS {

@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import User from '../../models/User';
+import User from '../routes/models/User';
 
 export const getProfile = async (req: Request, res: Response) => {
   try {
